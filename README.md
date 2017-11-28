@@ -1,7 +1,7 @@
 # draw
 
 TensorFlow implementation of [DRAW: A Recurrent Neural Network For Image Generation](http://arxiv.org/pdf/1502.04623.pdf) on the MNIST generation task.
-
+   
 | With Attention  | Without Attention |
 | ------------- | ------------- |
 | <img src="http://i.imgur.com/XfAkXPw.gif" width="100%"> | <img src="http://i.imgur.com/qQUToOy.gif" width="100%"> |
@@ -39,7 +39,7 @@ This git repository contains the following pre-trained in the `data/` folder:
 | draw_data_attn.npy | Training outputs for DRAW with attention |
 | drawmodel_attn.ckpt | Saved weights for DRAW with attention |
 | draw_data_noattn.npy | Training outputs for DRAW without attention |
-| drawmodel_noattn.ckpt | Saved weights for DRAW without attention |
+
 
 These were trained for 10000 iterations with minibatch size=100 on a GTX 970 GPU.
 
